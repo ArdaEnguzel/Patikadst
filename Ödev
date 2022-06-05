@@ -15,3 +15,48 @@ Liste sıralandıktan sonra 18 ortanca eleman olduğundan dolayı average case.
 3.Aşama > [2,3,4,7,5,8,9,15,6]
 4.Aşama > [2,3,4,5,7,8,9,15,6]
 
+
+
+
+
+[16,21,11,8,12,22] -> Merge Sort
+
+
+[16,21], [11]                    [8,12]   [22]
+
+[16] [21]  [11]                   [8,12]     [22]
+
+[16,21]   [11]
+
+[11,16,21]                        [8,12]     [22]
+
+
+[11,16,21]                        [8] [12]         [22]
+
+[11,16,21]                        [8,12]           [22]
+
+
+[11,16,21]                        [8,12,22]
+
+Son aşama: [8,11,12,16,21,22]
+Time complexitiy: O(nlogn)
+
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+
+Root 7'dir.
+5, 7'nin sol çocuğu. 
+1, 5'in sol çocuğu.
+8, 7'nin sağ çocuğu.
+3, 1'in sağ çocuğu.
+6, 5'in sağ çocuğu
+0, 1'in sol çocuğu.
+9, 8'in sağ çocuğu.
+4, 3'ün sağ çocuğu.
+2, 3'ün sol çocuğu.
+
+
+
+
+
